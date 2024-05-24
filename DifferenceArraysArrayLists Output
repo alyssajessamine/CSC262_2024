@@ -1,0 +1,27 @@
+/Users/alyssajessamine/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=58326:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/alyssajessamine/IdeaProjects/CSC262/out/production/CSC262 mod3.DifferenceArraysArrayLists
+Elements of the array:
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+
+Elements of the ArrayList:
+0
+1
+2
+3
+4
+5
+
+Elements of the ArrayList (other then values):
+C++
+Java
+Python
+
+Process finished with exit code 0
