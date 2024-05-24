@@ -1,0 +1,50 @@
+package mod3;
+import java.util.ArrayList;
+public class DifferenceArraysArrayLists {
+    public static void main(String[] args) {
+        // Array
+        // An array must contain a value.
+        // An array function is created and the number of values which make up this array is identified to be 10.
+        int[] array = new int[10];
+        //This array has an initial value of 0 and will increase by two.
+        for (int i = 0; i < array.length; i++)
+        {
+            array[i] = 2 * i;
+        }
+        // This will display the ten values that make up this array.
+        System.out.println("Elements of the array:");
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+
+        // Array List
+        // An array list may contain many different values.
+        // An array list function is created and made up of as many values as the user identifies below.
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        arrayList.add(0);
+        arrayList.add(1);
+        arrayList.add(2);
+        arrayList.add(3);
+        arrayList.add(4);
+        arrayList.add(5);
+
+        // This will display the five values that make up this array list.
+        System.out.println("\nElements of the ArrayList:");
+        for (Integer num : arrayList) {
+            System.out.println(num);
+        }
+
+        // As previously stated, and array list may contain more than just numbers.
+        // This array list function is created and made up of as many strings as the user identifies below.
+        ArrayList<String> arrayString = new ArrayList<>();
+        arrayString.add("C++");
+        arrayString.add("Java");
+        arrayString.add("Python");
+
+        // This will display the three strings that make up this array list.
+        System.out.println("\nElements of the ArrayList (other then values):");
+        for (String name : arrayString) {
+            System.out.println(name);
+        }
+    }
+}
